@@ -1,0 +1,201 @@
+# ----------------------------------------------------------------------------
+#   Project:      blaakopi dircolors
+#   Author:       Runar Skaare Tveiten
+#   Url:          https://github.com/runar/blaakopi-dircolors
+#   License:      The MIT License (MIT)
+#
+#   A very blue color scheme for dircolors, based on the concept of blueprints.
+# ----------------------------------------------------------------------------
+
+COLOR tty
+
+# ----------------------------------------------------------------------------
+# Term section
+# ----------------------------------------------------------------------------
+TERM *color*
+TERM Eterm
+TERM ansi
+TERM con[0-9]*x[0-9]*
+TERM cons25
+TERM console
+TERM cygwin
+TERM dtterm
+TERM dvtm
+TERM dvtm-256color
+TERM eterm-color
+TERM fbterm
+TERM gnome
+TERM gnome-256color
+TERM hurd
+TERM jfbterm
+TERM konsole
+TERM konsole-256color
+TERM kterm
+TERM linux
+TERM linux-c
+TERM mlterm
+TERM putty
+TERM putty-256color
+TERM rxvt*
+TERM rxvt-256color
+TERM rxvt-unicode
+TERM rxvt-unicode256
+TERM screen*
+TERM screen-256color
+TERM st
+TERM st-256color
+TERM terminator
+TERM tmux*
+TERM tmux-256color
+TERM vt100
+TERM xterm*
+TERM xterm-256color
+TERM xterm-88color
+TERM xterm-color
+
+# ----------------------------------------------------------------------------
+# Special files
+# ----------------------------------------------------------------------------
+NORMAL                    94
+FILE                      00
+RESET                     0
+DIR                       95
+LINK                      95
+MULTIHARDLINK             95
+FIFO                      00
+SOCK                      00
+DOOR                      00
+BLK                       00
+CHR                       00
+ORPHAN                    31
+MISSING                   41;37
+SETUID                    00
+SETGID                    00
+CAPABILITY                00
+STICKY_OTHER_WRITABLE     00
+OTHER_WRITABLE            00
+STICKY                    00
+EXEC                      00
+
+# ----------------------------------------------------------------------------
+# Archives or compressed files
+# ----------------------------------------------------------------------------
+# .tar                      00
+# .tgz                      00
+# .arc                      00
+# .arj                      00
+# .taz                      00
+# .lha                      00
+# .lz4                      00
+# .lzh                      00
+# .lzma                     00
+# .tlz                      00
+# .txz                      00
+# .tzo                      00
+# .t7z                      00
+# .zip                      00
+# .z                        00
+# .dz                       00
+# .gz                       00
+# .lrz                      00
+# .lz                       00
+# .lzo                      00
+# .xz                       00
+# .zst                      00
+# .tzst                     00
+# .bz2                      00
+# .bz                       00
+# .tbz                      00
+# .tbz2                     00
+# .tz                       00
+# .deb                      00
+# .rpm                      00
+# .jar                      00
+# .war                      00
+# .ear                      00
+# .sar                      00
+# .rar                      00
+# .alz                      00
+# .ace                      00
+# .zoo                      00
+# .cpio                     00
+# .7z                       00
+# .rz                       00
+# .cab                      00
+# .wim                      00
+# .swm                      00
+# .dwm                      00
+# .esd                      00
+
+# ----------------------------------------------------------------------------
+# Image formats
+# ----------------------------------------------------------------------------
+# .jpg                      00
+# .jpeg                     00
+# .mjpg                     00
+# .mjpeg                    00
+# .gif                      00
+# .bmp                      00
+# .pbm                      00
+# .pgm                      00
+# .ppm                      00
+# .tga                      00
+# .xbm                      00
+# .xpm                      00
+# .tif                      00
+# .tiff                     00
+# .png                      00
+# .svg                      00
+# .svgz                     00
+# .mng                      00
+# .pcx                      00
+# .mov                      00
+# .mpg                      00
+# .mpeg                     00
+# .m2v                      00
+# .mkv                      00
+# .webm                     00
+# .ogm                      00
+# .mp4                      00
+# .m4v                      00
+# .mp4v                     00
+# .vob                      00
+# .qt                       00
+# .nuv                      00
+# .wmv                      00
+# .asf                      00
+# .rm                       00
+# .rmvb                     00
+# .flc                      00
+# .avi                      00
+# .fli                      00
+# .flv                      00
+# .gl                       00
+# .dl                       00
+# .xcf                      00
+# .xwd                      00
+# .yuv                      00
+# .cgm                      00
+# .emf                      00
+# .ogv                      00
+# .ogx                      00
+
+# ----------------------------------------------------------------------------
+# Audio formats
+# ----------------------------------------------------------------------------
+# .aac                      00
+# .au                       00
+# .flac                     00
+# .m4a                      00
+# .mid                      00
+# .midi                     00
+# .mka                      00
+# .mp3                      00
+# .mpc                      00
+# .ogg                      00
+# .ra                       00
+# .wav                      00
+# .oga                      00
+# .opus                     00
+# .spx                      00
+# .xspf                     00
